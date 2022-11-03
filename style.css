@@ -1,0 +1,69 @@
+    body{
+        background-color: bisque;
+    }
+
+    .box{
+        width: 700px;
+        background: rgba(0, 0, 0, 0.7);
+        padding: 10px;
+        text-align: center;
+        margin: auto;
+        margin-top: 5%;
+        color:bisque;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    }
+
+    .box-img{
+        border-radius: 60%;
+        width: 200px;
+        height: 200px;
+    }
+  .box h1{
+        font-size: 40px;
+        letter-spacing: 2.5px;
+        font-weight: 100;
+    }
+    .box h2{
+        font-size: 20px;
+        letter-spacing: 2.5px;
+        font-weight: 100;
+        color: antiquewhite;
+    }
+    ul{
+        margin: 0;
+        padding: 0;
+    }
+    .box li{
+        display: inline-block;
+        margin: 6px;
+        list-style: none;
+    }
+    .box li a{
+        color: blanchedalmond;
+        text-decoration: none;
+        font-size: 60px;
+        transition: all ease-in-out 250ms;
+    }
+    .box li a:hover{
+        color: darksalmon;
+    }
+    .glow{
+        font-size: 80px;
+        color:#fff;
+        text-align: center;
+        text-decoration: dotted;
+        animation: glow 1s ease-in-out infinite alternate;
+    }
+
+    @keyframes glow {
+        from {
+          text-shadow: 0 0 0px #fff, 0 0 0px #fff, 0 0 0px #fff, 0 0 0px #fff, 0 0 0px #fff, 0 0 0px #ffff, 0 0 0px #fff;
+        }
+        
+        to {
+          text-shadow: 0 0 20px #fff, 0 0 30px darksalmon, 0 0 40px darksalmon, 0 0 50px darksalmon, 0 0 60px darksalmon, 0 0 70px darksalmon, 0 0 80px darksalmon;
+        }
+      }
+    
+
