@@ -3,12 +3,12 @@
     }
 
     .box{
-        width: 700px;
+        width: 850px;
         background: rgba(0, 0, 0, 0.7);
         padding: 10px;
         text-align: center;
         margin: auto;
-        margin-top: 5%;
+        margin-top: 15%;
         color:bisque;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
@@ -66,4 +66,68 @@
         }
       }
     
+      .dropdown {
+        position: fixed;
+      }
+      
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        min-width: 160px;
+        z-index: 1;
+        text-align: center;
+        vertical-align: text-top;
+ 
+        font-family: Georgia, 'Times New Roman', Times, serif;
+      }
+      
+      .dropdown-content a {
+        color: bisque;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+      
+      .button {
+        background-color: #201e1e;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        margin: 4px;
+        border-radius: 80px;
+      }
 
+      .button:hover {
+        text-shadow: 0 0 10px #fff, 0 0 10px darksalmon, 0 0 10px darksalmon, 0 0 10px darksalmon, 0 0 10px darksalmon, 0 0 10px darksalmon, 0 0 10px darksalmon;
+      }
+
+      .dropdown:hover {
+        min-width: 160px;
+      }
+
+
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+
+      .bar1, .bar2 {
+        width: 35px;
+        height: 5px;
+        background-color: black;
+        margin: 6px 0;
+        transition: 0.4s;
+      }
+      
+      .container:hover .bar1{
+        background-color: bisque;
+      }
+      .container:hover .bar2{
+        background-color: bisque;
+        width: 20px;
+      }
+    
+      .dropdown:hover .bar1{
+        background-color: bisque;
+      }
+      .dropdown:hover .bar2{
+        background-color: bisque;
+        width: 20px;
+      }

@@ -1,0 +1,30 @@
+    body{
+        background-color: bisque;
+    }
+
+    .aboutMeBox{
+        width: 700px;
+        background: rgba(0, 0, 0, 0.7);
+        padding: 10px;
+        text-align: center;
+        margin: auto;
+        margin-top: 5%;
+        color:bisque;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    }
+
+    .box-img{
+        border-radius: 60%;
+        width: 200px;
+        height: 200px;
+    }
+
+    ul{
+        margin: 0;
+        padding: 0;
+    }
+  
+    
+    
+    
